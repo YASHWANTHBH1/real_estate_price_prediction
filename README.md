@@ -11,4 +11,5 @@ Contents
 5) basic error tackle
 
 1 --> Structure of the Project
-![Screenshot 2024-11-27 092235](https://github.com/user-attachments/assets/35dded5a-94fc-41fb-8295-6b979fe1aa98)
+
+![Screenshot 2024-11-27 094550](https://github.com/user-attachments/assets/4c6903bd-6843-4d06-87d1-6e01a57b0f4d)
