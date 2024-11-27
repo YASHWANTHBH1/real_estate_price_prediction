@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sqft realestates</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="app.css" />
+    <script src="app.js" ></script>
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">SQFT REAL ESTATES</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#contact">MAKE A DEAL</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/th.png" alt="real estates" />
+      </div>
+      <div class="section__text">
+        <form class="form">
+          <h2>Area (Square Feet)</h2>
+            <input class="area"  type="text" id="uiSqft" class="floatLabel" name="Squareft" value="1000">
+          <h2>BHK</h2>
+          <div class="switch-field">
+            <input type="radio" id="radio-bhk-1" name="uiBHK" value="1"/>
+            <label for="radio-bhk-1">1</label>
+            <input type="radio" id="radio-bhk-2" name="uiBHK" value="2" checked/>
+            <label for="radio-bhk-2">2</label>
+            <input type="radio" id="radio-bhk-3" name="uiBHK" value="3"/>
+            <label for="radio-bhk-3">3</label>
+            <input type="radio" id="radio-bhk-4" name="uiBHK" value="4"/>
+            <label for="radio-bhk-4">4</label>
+            <input type="radio" id="radio-bhk-5" name="uiBHK" value="5"/>
+            <label for="radio-bhk-5">5</label>
+          </div>
+          </form>
+        <form class="form">
+          <h2>Bath</h2>
+          <div class="switch-field">
+            <input type="radio" id="radio-bath-1" name="uiBathrooms" value="1"/>
+            <label for="radio-bath-1">1</label>
+            <input type="radio" id="radio-bath-2" name="uiBathrooms" value="2" checked/>
+            <label for="radio-bath-2">2</label>
+            <input type="radio" id="radio-bath-3" name="uiBathrooms" value="3"/>
+            <label for="radio-bath-3">3</label>
+            <input type="radio" id="radio-bath-4" name="uiBathrooms" value="4"/>
+            <label for="radio-bath-4">4</label>
+            <input type="radio" id="radio-bath-5" name="uiBathrooms" value="5"/>
+            <label for="radio-bath-5">5</label>
+          </div>
+            <h2>Location</h2>
+          <div>
+          <select class="location" name="" id="uiLocations">
+            <option value="" disabled="disabled" selected="selected">Choose a Location</option>
+            <option>Electronic City</option>
+                <option>Rajaji Nagar</option>
+          </select>
+        </div>
+          <button class="submit" onclick="onClickedEstimatePrice()" type="button"><p>Estimate Price</p></button>
+          <center><div id="uiEstimatedPrice" class="result">	<h2></h2> </div></center>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Us</h1>
+        <div class="text-container">
+          <p1>
+            Welcome to the Sqft Real Estate Blog, your trusted resource for navigating Bengaluru’s vibrant property market. From affordable apartments in emerging neighborhoods to luxurious homes in the city’s most coveted locations, we bring you the latest insights to guide your real estate journey. Our content delves into market trends, neighborhood profiles, and practical advice for buyers, renters, and investors alike. Whether you're seeking a budget-friendly space to call home or an opulent retreat in the heart of the city, our blog is here to help you make confident and informed decisions. Explore the possibilities and find your perfect home in Bengaluru with us.
+          </p1>
+        </div>
+        <div class="text-container">
+          <p2>
+            Established in 2021 and headquartered in HSR Layout, Bengaluru, Sqft Real Estate is dedicated to transforming the property search experience. We specialize in connecting clients to the best budget and luxury apartments across the city, offering a seamless journey from discovery to registration. With a focus on reducing brokerage hassles and ensuring hassle-free registration, we aim to simplify the process of finding your perfect home. Whether you're a first-time buyer or looking to upgrade to a luxury space, Sqft Real Estate is your trusted partner in Bengaluru's dynamic property market.
+          </p1>
+        </div>
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">MAKE A DEAL</h1>
+      <div class="contact-info-upper-container">
+          <p><a>yashwanthbh382@gmail.com</a></p>
+      </div>
+      <div class="contact-info-upper-container">
+          <p><a>99933399922</a></p>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">MAKE_A_DEAL</a></li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+  </body>
+</html>
